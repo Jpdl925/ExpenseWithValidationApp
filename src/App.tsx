@@ -3,7 +3,7 @@ import ValidationForm from "./components/ValidationForm"
 const App = () => {
   return (
     <>
-    <ValidationForm/>
+    <ValidationForm expenses={} onDelete={}/>
     </>
   )
 }
