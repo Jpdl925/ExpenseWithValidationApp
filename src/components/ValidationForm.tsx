@@ -21,7 +21,7 @@ const ValidationForm = ({expenses,onDelete}:ExpenseProps) => {
     return (
         <>
 
-        
+        <div className="validSpace">
         <table className="table table-dark table-bordered">
             <thead>
                 <tr>
@@ -54,6 +54,8 @@ const ValidationForm = ({expenses,onDelete}:ExpenseProps) => {
             </tfoot>
 
         </table>
+        </div>
+
         </>
       );
 }

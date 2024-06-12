@@ -39,8 +39,10 @@ const App = () => {
 
   return (
     <>
+    <div className="wholeSpace">
     <ExpenseForm expenses={currentExpense} addToExpense={expenseAdd}/>
     <ValidationForm expenses={currentExpense} onDelete={handleDelete}/>
+    </div>
     </>
   )
 }

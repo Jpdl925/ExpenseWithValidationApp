@@ -44,6 +44,7 @@ const onHelpSubmit = (data:FieldValues) => {
 
   return (
     <>
+    <div className="formSpace">
     <form onSubmit={handleSubmit(onHelpSubmit)}>
         <div className="mx-5 my-3">
         <label htmlFor="description" className="form-label">Description</label>
@@ -71,6 +72,8 @@ const onHelpSubmit = (data:FieldValues) => {
         </div>
 
     </form>
+    </div>
+    
     </>
   )
 }

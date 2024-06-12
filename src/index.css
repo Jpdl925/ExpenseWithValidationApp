@@ -1,4 +1,39 @@
 body{
   background-color: rgb(41,41,41);
   color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.wholeSpace{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.formSpace{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  outline: 2px solid white;
+  width: 50%;  
+  }
+
+  .formSpace form{
+    width: 100vw;
+  }
+
+  .validSpace{  
+  overflow: scroll;
+  flex-grow: 1;
+  height: 100vh;
+  outline: 2px solid white;
+  width: 50%;
+}
+
+.validSpace table{
+
 }
