@@ -11,11 +11,11 @@ const App = () => {
 
   const [selectCat, setSelectCat] = useState('')
   const [expenseArray, setExpenseArray] = useState([
-    {id:1, description: 'aaa', amount: 10, category: 'Utilities'},
-    {id:2, description: 'bbb', amount: 15, category: 'Entertainment'},
-    {id:3, description: 'ccc', amount: 20, category: 'Food'},
-    {id:4, description: 'ddd', amount: 25, category: 'Shopping'},
-    {id:5, description: 'eee', amount: 16, category: 'Groceries'}
+    {id:1, description: 'Gas', amount: 150, category: 'Utilities'},
+    {id:2, description: 'Movie', amount: 15, category: 'Entertainment'},
+    {id:3, description: 'Chipotle', amount: 16, category: 'Food'},
+    {id:4, description: 'Curtains', amount: 45, category: 'Shopping'},
+    {id:5, description: 'Eggs', amount: 12, category: 'Groceries'}
   ]) 
   
   const handleDelete = (id:number) => {
