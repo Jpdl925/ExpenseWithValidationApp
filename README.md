@@ -16,5 +16,5 @@ React Expense App Validation  w/Zod and React Hook Forms
 
 
 
-<strong> Peer review by:  </strong>  
-Comment: 
+<strong> Peer review by: Saroeut </strong>  
+Comment: Looks good, code runs fine. Nice design
