@@ -22,6 +22,12 @@ body{
   width: 50%;  
   }
 
+h1{
+  position: absolute;
+  top: 10vh;
+  font: bolder;
+}
+
   .formSpace form{
     width: 100vw;
   }
