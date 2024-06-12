@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+Julius
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Date Revised: 6/11/24
 
-Currently, two official plugins are available:
+Mini Challenge 10 Expense App Validation w/zod react hook forms
+React Expense App Validation  w/Zod and React Hook Forms
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Add Validation to your form with react hook forms and zod
 
-## Expanding the ESLint configuration
+2. Make it so you can add  to your List from your form using the Submit button.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. Style your app in your own unique way.
 
-- Configure the top-level `parserOptions` property like this:
+4. Make sure to push to github multiple times each day.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+<strong> Peer review by:  </strong>  
+Comment: 
